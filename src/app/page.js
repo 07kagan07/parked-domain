@@ -16,7 +16,7 @@ const [domainName,setDomainName]= useState(null);
       </div>
       <div>
         <form className="flex flex-col text-2xl bg-form  gap-3 justify-center items-center py-5 px-10 rounded-md ">
-          <input type="hidden" name="domain" value={domainName} />
+          <input type="hidden" name="domain" value={domainName?domainName:""} />
           <div className="flex flex-col gap-1">
             <label htmlFor="name">Adınız</label>
             <input
