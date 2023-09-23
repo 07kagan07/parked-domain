@@ -1,8 +1,14 @@
 "use client"
-export default function Home() {
-  const domainName = window.location.host;
 
-  console.log(domainName)
+import { useEffect, useState } from "react";
+
+export default function Home() {
+const [domainName,setDomainName]= useState(null);
+
+  useEffect(()=>{
+    setDomainName(window.location.host);
+  })
+
   return (
     <main className="main">
       <div className="bg-domain flex justify-center items-center">
