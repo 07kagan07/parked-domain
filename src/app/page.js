@@ -7,7 +7,7 @@ const [domainName,setDomainName]= useState(null);
 
   useEffect(()=>{
     setDomainName(window.location.host);
-  })
+  },[])
 
   return (
     <main className="main">
