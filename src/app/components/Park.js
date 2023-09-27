@@ -48,6 +48,7 @@ const Park = () => {
             />
           </div>
           <button
+            disabled
             className="px-5 py-2 border-2 rounded-lg border-[#82b37a] hover:bg-[#82b37a] hover:text-white"
             type="submit"
           >
