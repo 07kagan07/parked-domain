@@ -16,8 +16,13 @@
   background-color: #82b37a;
 }
 
-/* .bg-form{
-  height: 50vh;
-  width: 100vw;
-  background-color: #bcd1fe;
-} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
