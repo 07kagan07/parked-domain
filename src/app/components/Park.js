@@ -35,8 +35,10 @@ const Park = () => {
   return (
     <main className="main">
       <div className="bg-domain flex justify-center items-center">
-        <h4 className="bg-[#82b37a] py-2 px-5 rounded-md text-white shadow-form">
+        <h4 className="bg-[#82b37a] py-2 px-5 rounded-md text-white shadow-form text-center text-xl">
           {content.domain}
+          <hr />
+          <p className="text-lg">Bu Domain Satılıktır !</p>
         </h4>
       </div>
       <div>
