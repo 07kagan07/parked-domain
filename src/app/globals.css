@@ -16,10 +16,6 @@
   background-color: #82b37a;
 }
 
-button:disabled{
-  background-color: #686A6C;
-}
-
 /* .bg-form{
   height: 50vh;
   width: 100vw;
