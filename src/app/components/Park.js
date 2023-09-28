@@ -87,7 +87,8 @@ const Park = () => {
             </div>
           </div>
           <button
-            disabled={values.includes("")}
+            // disabled={values.includes("")}
+            disabled
             className="px-5 py-2 border-2 rounded-lg border-[#82b37a] hover:bg-[#82b37a] hover:text-white disabled:bg-[#686A6C] disabled:text-[#b3b7bb] disabled:border-[#686A6C]"
             type="submit"
           >
