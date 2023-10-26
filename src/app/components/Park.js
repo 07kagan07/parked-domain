@@ -38,7 +38,7 @@ const Park = () => {
         <h4 className="bg-[#82b37a] py-2 px-5 rounded-md text-white shadow-form text-center text-xl">
           {content.domain}
           <hr />
-          <p className="text-lg">Bu Domain Satılıktır !</p>
+          <p className="text-lg">Bu Domain Satılıktır ! <br/> 05455206512</p>
         </h4>
       </div>
       <div>
